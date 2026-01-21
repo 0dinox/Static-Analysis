@@ -63,7 +63,7 @@ What differs is **what static analysis can see before execution**.
 
 ---
 
-## File 1: `detected.cs` — Baseline (High Static Visibility)
+## File 1: `detected.cs`  Baseline (High Static Visibility)
 
 ### How the Code Works
 
@@ -83,7 +83,7 @@ This is static analysis working **as designed**.
 
 ---
 
-## File 2: `undetected.cs` — Transformed (Reduced Static Visibility)
+## File 2: `undetected.cs`  Transformed (Reduced Static Visibility)
 
 ### What Changed Compared to `detected.cs`
 
@@ -160,7 +160,7 @@ Static analysis is not weak.
 It is **purpose-built**.
 
 It evaluates **what is visible at rest**.
-When visibility changes, interpretation changes — even if behavior does not.
+When visibility changes, interpretation changes  even if behavior does not.
 
 ---
 
